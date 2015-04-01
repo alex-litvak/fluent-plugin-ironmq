@@ -1,7 +1,19 @@
 = IronMQ input/output plugin for Fluentd
 
 == Install
+ 1. Install Fluentd: 
+ http://docs.fluentd.org/v0.10/categories/installation
+ 
+ 2. Install Fluentd plugin for ironmq. There are two ways to do it.
+ 
+ ==== Using 'gem' command
  $ gem install fluent-plugin-ironmq
+ 
+ ==== Download directly
+ Download files in_ironmq.rb and out_ironmq.rb and move them to /etc/td-agent/plugin directory.
+ 
+ 3. Install iron_mq plugin:
+ sudo /usr/sbin/td-agent-gem install iron_mq
 
 == Component
 
